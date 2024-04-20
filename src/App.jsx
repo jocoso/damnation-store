@@ -1,27 +1,24 @@
 function App(props) {
   return (
     <>
-      <header>
-        <nav>
-          <section>
-            NAVIGATION BAR 1
-          </section>
-          <section>
-            NAVIGATION BAR 2
-          </section>  
-        </nav>
-      </header>
       <main>
-        CONTENT
+
+        {/* Header */}
+        <header className="header">
+          Header
+        </header>
+
+        {/* CONTENT */}
+        <section className="content">
+          Content
+        </section>
+
+        {/* FOOTER */}
+        <footer className="footer">
+          Footer
+        </footer>
+
       </main>
-      <footer>
-        <section>
-          FOOTER 1
-        </section>
-        <section>
-          FOOTER 2
-        </section>
-      </footer>
     </>
   );
 }
