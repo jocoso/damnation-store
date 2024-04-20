@@ -3,17 +3,24 @@ function App(props) {
     <>
       <header>
         <nav>
-          NAVIGATION BAR 1
-        </nav>
-        <nav>
-          NAVIGATION BAR 2
+          <section>
+            NAVIGATION BAR 1
+          </section>
+          <section>
+            NAVIGATION BAR 2
+          </section>  
         </nav>
       </header>
       <main>
         CONTENT
       </main>
       <footer>
-        FOOTER
+        <section>
+          FOOTER 1
+        </section>
+        <section>
+          FOOTER 2
+        </section>
       </footer>
     </>
   );
