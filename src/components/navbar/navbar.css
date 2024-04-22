@@ -1,0 +1,31 @@
+#nav-bar {
+    top: 0;
+    left: 0;
+    z-index: 198;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1em;
+    display: block;
+    zoom: 1;
+    margin: 0 !important;
+    min-width: 1000px;
+}
+
+#nav-bar.nav-flex {
+    display: flex;
+    position: static;
+    float: none;
+    flex-flow: row nowrap;
+    height: 60px;
+}
+
+#nav-bar > img {
+    height: 100px;
+}
+
+#nav-bar > * {
+    flex: 1 1 0px;
+}
+
+
+

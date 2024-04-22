@@ -1,26 +1,45 @@
-function App(props) {
-  return (
-    <>
-      <main>
+import React from "react";
 
-        {/* Header */}
-        <header className="header">
-          Header
-        </header>
+import Navbars from "./components/Navbars/Navbars";
 
-        {/* CONTENT */}
-        <section className="content">
-          Content
-        </section>
+class App extends React.Component { 
 
-        {/* FOOTER */}
-        <footer className="footer">
-          Footer
-        </footer>
+  constructor(props) {
+    super(props);
 
-      </main>
-    </>
-  );
+    this.state = {
+      
+    }
+  } 
+
+  returnMe = () => {
+    return this;
+  }
+
+  render() { 
+    return (
+      <>
+        <main>
+
+          {/* Header */}
+          <header className="header">
+            <Navbars />
+          </header>
+
+          {/* CONTENT */}
+          <section className="content">
+            Content
+          </section>
+
+          {/* FOOTER */}
+          <footer className="footer">
+            Footer
+          </footer>
+
+        </main>
+      </>
+    );
+  }
 }
 
 export default App;

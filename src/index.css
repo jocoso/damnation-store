@@ -9,16 +9,13 @@
 main {
     background-color: #000;
     min-height: 100vh;
-    
-    text-align: center;
 
     display: flex;
     flex-direction: column;
 }
 
 .header {
-    flex: 1;
-
+    flex: 0;
     background: #03a9f4;
 }
 
