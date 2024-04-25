@@ -1,26 +1,24 @@
-function App(props) {
-  return (
-    <>
-      <main>
+import React from "react";
 
-        {/* Header */}
-        <header className="header">
-          Header
-        </header>
+import Home from "./components/pages/Homes/Home";
 
-        {/* CONTENT */}
-        <section className="content">
-          Content
-        </section>
+class App extends React.Component { 
 
-        {/* FOOTER */}
-        <footer className="footer">
-          Footer
-        </footer>
+  constructor(props) {
+    super(props);
 
-      </main>
-    </>
-  );
+    this.state = {
+      
+    }
+  } 
+
+  render() { 
+    return (
+      <>
+        <Home />
+      </>
+    );
+  }
 }
 
 export default App;

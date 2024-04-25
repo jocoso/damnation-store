@@ -1,0 +1,18 @@
+#footer {
+    /* center all */
+    text-align: center;
+    vertical-align: center;
+
+    /* define it */
+    width: 100%;
+    height: 5vh;
+
+    /* make it cute */
+    background-color: cadetblue;
+    color: black;
+}
+
+#footer > p {
+    /* center all */
+    line-height: 5vh;
+}
